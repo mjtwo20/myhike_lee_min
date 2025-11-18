@@ -17,7 +17,7 @@ class SiteNavbar extends HTMLElement {
             <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="public/images/mylogo.png" height="36">
+                        <img src="/images/mylogo.png" height="36">
                         MinHikes
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,6 +28,10 @@ class SiteNavbar extends HTMLElement {
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="/">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                  <a class="nav-link" href="/saved.html">Saved</a>
                             </li>
                         </ul>
                         <div class="d-flex align-items-center gap-2 ms-lg-2" id="rightControls">
