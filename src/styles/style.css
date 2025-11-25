@@ -2,6 +2,18 @@
   background-color: #ccd5ae !important; /* Light green for secondary backgrounds */
 }
 
+.login_btn {
+  background-color: #d4a373;
+  border: #d4a373 1px solid;
+  color: #fefae0;
+}
+
+.login_btn:hover {
+  background-color: #ccd5ae;
+  border: #ccd5ae 1px solid;
+  color: #fefae0;
+}
+
 /* Add CSS styles for the card container with vertical scrolling */
 .card-container {
   max-height: 350px; /* Adjust the maximum height as needed */
